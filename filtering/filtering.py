@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # 이미지 파일을 읽어온다.
-img = cv2.imread('도형.png')
+img = cv2.imread('filtering/도형.png')
 
 # 읽어온 이미지를 화면에 출력한다.
 cv2.imshow('img image', img)
